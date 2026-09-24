@@ -46,14 +46,6 @@ then verify the command is available:
 floability --version
 ```
 
-## Validate the backpack
-
-From the repository root:
-
-```bash
-floability backpack validate --strict .
-```
-
 ## Execute the workflow
 
 ```bash
