@@ -1,0 +1,7 @@
+vine_factory_config:
+  min-workers: 1
+  max-workers: 2
+  cores: 1
+  memory: 1024
+  disk: 2048
+

@@ -1,0 +1,82 @@
+schema_version: 1.0
+default_profile: matrix_data
+
+profiles:
+  matrix_data:
+    policy:
+      run_operation: fetch
+      verification_type: strict
+      retry_attempts: 3
+      timeout: 60
+      size_tolerance_bytes: 0
+
+    data:
+      - name: matrix_dense_00
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_00.csv
+        target_location: data/matrices/matrix_dense_00.csv
+        expected_size: 295627
+        checksum: sha256:1fd3591f1fb172cfa1c22be219889e48e54265f648b32fc2a43b9f4651ca4014
+
+      - name: matrix_dense_01
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_01.csv
+        target_location: data/matrices/matrix_dense_01.csv
+        expected_size: 295990
+        checksum: sha256:f91daa3f911bd054005853995c726e7450737f8f2503fe069d1911b6a80d2641
+
+      - name: matrix_dense_02
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_02.csv
+        target_location: data/matrices/matrix_dense_02.csv
+        expected_size: 295846
+        checksum: sha256:0b524ccf696cbcf76dced4dfabf7d3d65e6de99770efcf87b84c542297833657
+
+      - name: matrix_dense_03
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_03.csv
+        target_location: data/matrices/matrix_dense_03.csv
+        expected_size: 295719
+        checksum: sha256:a9c1018f37c0a47135237238a9bf6e19a49247a43598723c077aa2a2659fa823
+
+      - name: matrix_dense_04
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_04.csv
+        target_location: data/matrices/matrix_dense_04.csv
+        expected_size: 295693
+        checksum: sha256:5f416434a2ffdc606354316ec1dd12907c61e371396c33c2c347fca6545ff768
+
+      - name: matrix_dense_05
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_05.csv
+        target_location: data/matrices/matrix_dense_05.csv
+        expected_size: 295785
+        checksum: sha256:fa6b742bed487722467d7ac7ccc20ca218b1d6e6a8df3901f6322d0d9535e49b
+
+      - name: matrix_dense_06
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_06.csv
+        target_location: data/matrices/matrix_dense_06.csv
+        expected_size: 295959
+        checksum: sha256:57b9e5999b4fdef1d91eb8af1736d548dabbc146bad07197e3ba51646bb81112
+
+      - name: matrix_dense_07
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_07.csv
+        target_location: data/matrices/matrix_dense_07.csv
+        expected_size: 295816
+        checksum: sha256:7fd552237b0255bf164b24f46ce4b8a7dae1e1d03db26be4052c9bc465c5f9af
+
+      - name: matrix_dense_08
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_08.csv
+        target_location: data/matrices/matrix_dense_08.csv
+        expected_size: 295874
+        checksum: sha256:1d5069d58d8168e76d3b8606384fd1532e73fcae9d5675bbade3e95087fc948d
+
+      - name: matrix_dense_09
+        source_type: http
+        source: https://raw.githubusercontent.com/floability/backpack-test-data/refs/heads/main/matrix_200_200/matrix_dense_09.csv
+        target_location: data/matrices/matrix_dense_09.csv
+        expected_size: 295901
+        checksum: sha256:a35585b72f9301d47a5b536164c8cbff6054e35215cf7f117bdfdcf9b2607a2d
