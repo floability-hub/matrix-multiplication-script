@@ -1,4 +1,4 @@
-name: matrix-multiplication-script
+name: matrix-multiplication
 channels:
   - conda-forge
 dependencies:
